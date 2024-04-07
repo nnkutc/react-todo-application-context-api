@@ -51,7 +51,7 @@
     "workbox-webpack-plugin": "5.1.4"
   },
   "scripts": {
-    "start": "node scripts/start.js"
+    "start": "export NODE_OPTIONS=--openssl-legacy-provider && node scripts/start.js"
   },
   "eslintConfig": {
     "extends": [
